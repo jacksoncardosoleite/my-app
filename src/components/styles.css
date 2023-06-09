@@ -1,0 +1,132 @@
+.Button {
+    background-color: #000701;
+    color: #9812a1;
+    font-size: 20px;
+    cursor:pointer;
+    border: 2px groove #333a0f;
+    box-shadow: 2px 2px 6px #064132;
+}
+
+.merzbow {
+    font-size: 28px;
+    background-color:#0d2c09;
+    padding: 10px;
+    border: 2px groove #333a0f;
+    background-position: center;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+}
+
+.input {
+    background-color:#032b09;
+    font-size: 20px;
+    padding: 6px;
+    border: 2px groove #333a0f;
+    text-align: center;
+    color:#0d7412;
+    font-style: italic;
+    margin-bottom: 24px;
+}
+
+.input::placeholder {
+    color:#294e1b
+}
+
+#kmtomiles {
+    background-color:#022006;
+    padding: 20px;
+    border: 3px solid #000a01;
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+#kmresult {
+    background-color:#022006;
+    display: inline;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+#inputsum {
+    background-color:#032b09;
+    font-size: 16px;
+    padding: 8px;
+    border: 2px groove #333a0f;
+    text-align: center;
+    color:#0d7412;
+    font-style: italic;
+    
+}
+
+.addbutton {
+    background-color:#032b09;
+    margin-top:10px;
+}
+
+.summarizer {
+    background-color: #022006;
+    padding: 12px;
+    border: 2px solid #000701;
+    padding-bottom: 12px;
+    padding-top: 9px;
+}
+
+#inputsum::placeholder {
+    color: #13501b;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    list-style-position: inside;
+    padding-left: 0px;
+    background-color: #062011;
+    padding: 14px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    color:#054708 ;
+    border-left: 2px groove #333a0f;
+    border-right: 2px groove #333a0f;
+    border-bottom: 2px groove #333a0f;
+}
+
+.form {
+    background-color: #062011;
+    padding-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #0d0f03;
+    border-top: 2px groove #333a0f;
+    border-left: 2px groove #333a0f;
+    border-right: 2px groove #333a0f;
+}
+
+.contact {
+    background-color: #022006;
+    padding: 12px;
+    border: 2px groove #333a0f;
+    padding-bottom: 12px;
+    padding-top: 9px;
+    color:#327e36;
+
+}
+
+
+/* display: "flex", alignItems: "center",
+ justifyContent: "center",
+ height: "100vh" */
+
+/* none: No border is displayed.
+solid: The border is solid.
+dotted: The border is a series of dots.
+dashed: The border is a series of short dashes.
+double: The border consists of two parallel lines.
+groove: The border appears to be carved into the page.
+ridge: The border appears to be raised.
+inset: The border appears embedded within the element.
+outset: The border appears raised above the element. 
+*/
+
